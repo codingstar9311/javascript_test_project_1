@@ -70,25 +70,6 @@ function onSubmitForm(event) {
     return false;
 }
 
-function onClickResume() {
-    let doc = new jspdf();
-
-    let elementHtml = $('#about-me').html();
-    let specialElementHandlers = {
-        '#elementH': function (element, renderer) {
-            return true;
-        }
-    };
-
-    doc.fromHTML(elementHtml, 15, 15, {
-        width: 300,
-        'elementHandlers': specialElementHandlers
-    });
-
-    doc.save("personal-data.pdf");
-
-}
-
 function onCheckValid(event) {
     event.preventDefault();
 
@@ -98,28 +79,5 @@ function onCheckValid(event) {
         toastr.error("Postal code is not correct!");
     }
 }
-
-$(document).ready(function () {
-
-
-    let optionHtml = `<option value='0'></option>`;
-
-    cities.forEach(item => {
-
-        let value = item[0];
-
-        if (item.length > 1) {
-            let provinceKey = item[1];
-            let province = provinces[provinceKey];
-
-            value += ", " + province;
-        }
-
-        optionHtml += `<option value='${value}'>${value}</option>`;
-    });
-
-    $('#city').html(optionHtml);
-    $('#city').selectpicker();
-});
 
 

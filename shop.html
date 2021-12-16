@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/library/toastr.css">
     <link rel="stylesheet" href="./css/custom/app.css">
@@ -29,10 +29,10 @@
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-            <li class="nav-item selected">
+            <li class="nav-item">
                 <a class="nav-link" href="./">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item selected">
                 <a class="nav-link" href="./shop.html">Shop</a>
             </li>
             <li class="nav-item">
@@ -46,42 +46,117 @@
 
 <section class="first-section py-5">
     <div class="container">
-        <h2 class="section-name" style="text-align: center">Recent Products</h2>
-        <div id="top-recent-carousel" class="carousel slide" data-ride="carousel">
+        <h2 class="section-name" style="text-align: center">All Products</h2>
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#top-recent-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#top-recent-carousel" data-slide-to="1"></li>
-                <li data-target="#top-recent-carousel" data-slide-to="2"></li>
-                <li data-target="#top-recent-carousel" data-slide-to="3"></li>
-                <li data-target="#top-recent-carousel" data-slide-to="4"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                    <img src="./uploads/images/shoe01.jpg" alt="/uploads/images/shoe01.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./uploads/images/shoe03.jpg" alt="/uploads/images/shoe03.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./uploads/images/shoe05.jpg" alt="/uploads/images/shoe05.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./uploads/images/shoe06.jpg" alt="/uploads/images/shoe06.jpg">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                <div class="card">
+                    <div class="card-header shop-item">
+                        <img src="./uploads/images/shoe01.jpg" alt="./uploads/images/shoe01.jpg"/>
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Name: <span class="name">shoe-01</span>
+                        </h5>
+                        <h5>
+                            Price: <span class="price">$520.00</span>
+                        </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                    </div>
                 </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#top-recent-carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#top-recent-carousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-
+            <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                <div class="card">
+                    <div class="card-header shop-item">
+                        <img src="./uploads/images/shoe02.jpg" alt="./uploads/images/shoe02.jpg"/>
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Name: <span class="name">shoe-02</span>
+                        </h5>
+                        <h5>
+                            Price: <span class="price">$220.00</span>
+                        </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                <div class="card">
+                    <div class="card-header shop-item">
+                        <img src="./uploads/images/shoe03.jpg" alt="./uploads/images/shoe03.jpg"/>
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Name: <span class="name">shoe-03</span>
+                        </h5>
+                        <h5>
+                            Price: <span class="price">$220.00</span>
+                        </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                <div class="card">
+                    <div class="card-header shop-item">
+                        <img src="./uploads/images/shoe04.jpg" alt="./uploads/images/shoe04.jpg"/>
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Name: <span class="name">shoe-04</span>
+                        </h5>
+                        <h5>
+                            Price: <span class="price">$354.00</span>
+                        </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                <div class="card">
+                    <div class="card-header shop-item">
+                        <img src="./uploads/images/shoe05.jpg" alt="./uploads/images/shoe05.jpg"/>
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Name: <span class="name">shoe-05</span>
+                        </h5>
+                        <h5>
+                            Price: <span class="price">$367.00</span>
+                        </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                <div class="card">
+                    <div class="card-header shop-item">
+                        <img src="./uploads/images/shoe06.jpg" alt="./uploads/images/shoe06.jpg"/>
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Name: <span class="name">shoe-06</span>
+                        </h5>
+                        <h5>
+                            Price: <span class="price">$458.00</span>
+                        </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
