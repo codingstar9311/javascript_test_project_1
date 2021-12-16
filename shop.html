@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="./css/custom/app.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
 
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -42,7 +45,8 @@
     </div>
 </nav>
 
-<div class="background-wrapper" style="background-image: url(./images/background/background-2.jpg); position: fixed" ></div>
+<div class="background-wrapper"
+     style="background-image: url(./images/background/background-2.jpg); position: fixed"></div>
 
 <section class="first-section py-5">
     <div class="container">
@@ -63,7 +67,7 @@
                         </h5>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                        <button style="width: 120px" class="btn btn-success" onclick="onBuyNow(event)">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -81,7 +85,9 @@
                         </h5>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                        <button type="buttton" style="width: 120px" class="btn btn-success" onclick="onBuyNow(event)">
+                            Buy Now
+                        </button>
                     </div>
                 </div>
             </div>
@@ -99,7 +105,9 @@
                         </h5>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                        <button type="buttton" style="width: 120px" class="btn btn-success" onclick="onBuyNow(event)">
+                            Buy Now
+                        </button>
                     </div>
                 </div>
             </div>
@@ -117,7 +125,9 @@
                         </h5>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                        <button type="buttton" style="width: 120px" class="btn btn-success" onclick="onBuyNow(event)">
+                            Buy Now
+                        </button>
                     </div>
                 </div>
             </div>
@@ -135,7 +145,9 @@
                         </h5>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                        <button type="buttton" style="width: 120px" class="btn btn-success" onclick="onBuyNow(event)">
+                            Buy Now
+                        </button>
                     </div>
                 </div>
             </div>
@@ -153,48 +165,75 @@
                         </h5>
                     </div>
                     <div class="card-footer text-center">
-                        <button type="buttton" style="width: 120px" class="btn btn-success">Buy Now</button>
+                        <button type="buttton" style="width: 120px" class="btn btn-success" onclick="onBuyNow(event)">
+                            Buy Now
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="expertise py-5">
+
+<section class="py-5">
     <div class="container">
-        <h2 class="section-name" style="text-align: center">Videos</h2>
-        <div class="row mx-0 align-items-center content-row">
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4" style="width: 100%"></video>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 py-2 duration-wrapper">
-                <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" style="width: 100%"></video>
+        <h2 class="section-name" style="text-align: center">Total Information</h2>
+
+        <div class="row align-items-center">
+            <div class="col-sm-12 py-2">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Shoes Name</th>
+                        <th>Price</th>
+                        <th>Number of sales</th>
+                        <th>Remaining number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>shoe-01</td>
+                        <td>$520.00</td>
+                        <td>102</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td>shoe-02</td>
+                        <td>$220.00</td>
+                        <td>38</td>
+                        <td>39</td>
+                    </tr>
+                    <tr>
+                        <td>shoe-03</td>
+                        <td>$220.00</td>
+                        <td>142</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>shoe-04</td>
+                        <td>$354.00</td>
+                        <td>23</td>
+                        <td>234</td>
+                    </tr>
+                    <tr>
+                        <td>shoe-05</td>
+                        <td>$367.00</td>
+                        <td>102</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>shoe-06</td>
+                        <td>$458.00</td>
+                        <td>234</td>
+                        <td>25</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-
     </div>
 </section>
+
 <section class="py-5 footer-section">
     <div class="container">
         <h2 class="section-name" style="text-align: center">Contact Information</h2>
@@ -212,69 +251,58 @@
     </div>
 </section>
 
-<div class="modal fade" id="contact-modal" data-backdrop="static" data-keyboard="false">
+<div class="modal fade" id="buy-modal" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
 
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h3 class="modal-title" style="margin: auto">Contact</h3>
-            </div>
-
             <!-- Modal body -->
             <div class="modal-body">
-                <form method="post" action="https://httpbin.org/post" onsubmit="onSubmitForm(event)">
+                <form method="post" action="" onsubmit="onSubmitForm(event)">
+                    <div class="row mx-0 py-2">
+                        <div class="col-sm-12 py-2 px-2">
+                            <h3 class="form-check-label text-center"><span id="shop-name"></span>(<span
+                                    id="shop-price"></span>)</h3>
+                        </div>
+                    </div>
                     <div class="row mx-0">
-                        <input type="hidden" class="form-control" id="student_id" name="student_id" value="0001"/>
                         <div class="col-lg-6 col-sm-12 py-2 px-2">
-                            <label class="form-check-label" for="name">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required/>
-                        </div>
-                        <div class="col-lg-6 col-sm-12 py-2 px-2">
-                            <label class="form-check-label" for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required/>
-                        </div>
-                        <div class="col-lg-12 col-sm-12 py-2 px-2">
-                            <label class="form-check-label" for="email">Address</label>
-                            <input type="text" class="form-control" id="address" name="address" required/>
-                        </div>
-                        <div class="col-lg-6 col-sm-12 py-2 px-2">
-                            <label class="form-check-label" for="city">City</label>
-                            <select class="form-control" id="city" name="city"  data-live-search="true" required>
+                            <label class="form-check-label" for="select-count">Select Count</label>
+                            <select class="select-count form-control" id="select-count" data-live-search="true">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
                             </select>
                         </div>
                         <div class="col-lg-6 col-sm-12 py-2 px-2">
-                            <label class="form-check-label" for="postal_code">Postal Code</label>
-                            <input type="text" class="form-control" id="postal_code" name="postal_code" onblur="onCheckValid(event)" required/>
+                            <label class="form-check-label" for="select-tax">Select Tax</label>
+                            <select class="select-tax form-control" id="select-tax" data-live-search="true">
+                                <option value="">No select</option>
+                                <option value="2">Set Tax</option>
+                            </select>
                         </div>
                     </div>
+                    <br/>
+                    <h3 class="text-center">Shipping Information</h3>
                     <div class="row mx-0">
-                        <div class="col-lg-4 col-sm-12 py-2 px-2">
-                            <label class="form-check-label radio-label" style="font-size: 18px">
-                                <input type="radio" class="form-check-input" id="radio-question" style="width: 18px; height: 18px"
-                                       name="type" value="question" checked onchange="onChangeRadio(false)">&nbsp;Question
-                            </label>
+                        <div class="col-lg-6 col-sm-12 py-2 px-2">
+                            <label class="form-check-label" for="email">Contact Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required/>
                         </div>
-                        <div class="col-lg-4 col-sm-12 py-2 px-2">
-                            <label class="form-check-label radio-label" style="font-size: 18px">
-                                <input type="radio" class="form-check-input" style="width: 18px; height: 18px"
-                                       name="type" value="comment" onchange="onChangeRadio(false)">&nbsp;Comment
-                            </label>
+                        <div class="col-lg-6 col-sm-12 py-2 px-2">
+                            <label class="form-check-label" for="phone_number">Contact Phone Number</label>
+                            <input type="text" class="form-control" id="phone_number" name="phone_number" required/>
                         </div>
-                        <div class="col-lg-4 col-sm-12 py-2 px-2">
-                            <label class="form-check-label radio-label" style="font-size: 18px">
-                                <input type="radio" class="form-check-input" style="width: 18px; height: 18px"
-                                       name="type" value="hiring" onchange="onChangeRadio(true)">&nbsp;Hiring
-                            </label>
-                        </div>
-                    </div>
-                    <div class="row mx-0" id="hourly_rate_wrapper">
                         <div class="col-lg-12 col-sm-12 py-2 px-2">
-                            <label class="form-check-label" for="name">Hourly rate</label>
-                            <input type="number" class="form-control" id="hourly_rate" min="0" value="0"
-                                   name="hourly_rate"/>
+                            <label class="form-check-label" for="address">Shipping Address</label>
+                            <input type="text" class="form-control" id="address" name="address" required/>
                         </div>
-
                     </div>
                     <div class="row mx-0">
                         <div class="col-lg-12 col-sm-12 py-2 px-2">
@@ -282,12 +310,31 @@
                                       required placeholder="please type message..."></textarea>
                         </div>
                     </div>
+                    <br/>
+                    <h3 class="text-center">Card Information</h3>
+                    <div class="row mx-0">
+                        <div class="col-lg-12 col-sm-12 py-2 px-2">
+                            <input type="text" class="form-control" id="card_number" name="card_number"
+                                   placeholder="card number" onkeypress="return onCheckNumber(event)" required/>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 py-2 px-2">
+                            <input type="text" class="form-control" id="card_expires" name="card_expires"
+                                   placeholder="MM/YY" onkeypress="return onCheckExpired(event)" required/>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 py-2 px-2">
+                            <input type="text" class="form-control" id="card_cvc" name="card_cvc" placeholder="CVC"
+                                   onkeypress="return onCheckCvc(event)"
+                                   required/>
+                        </div>
+                    </div>
                     <div class="row" style="padding-top: 40px; padding-bottom: 30px">
                         <div class="col-12 text-center">
-                            <button type="submit" style="width: 150px" id="btn-submit" class="btn btn-outline-danger">Submit</button>
+                            <button type="submit" style="width: 150px" id="btn-submit" class="btn btn-outline-danger">
+                                Pay
+                            </button>
                             &nbsp;&nbsp;
                             <button type="button" style="width: 150px" id="btn-close" class="btn btn-outline-primary"
-                                    data-dismiss="modal">Close
+                                    data-dismiss="modal">Cancel
                             </button>
                         </div>
                     </div>
@@ -298,6 +345,6 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 <script src="./js/library/toastr.js"></script>
-<script src="./js/custom/app.js"></script>
+<script src="./js/custom/shop.js"></script>
 </body>
 </html>
